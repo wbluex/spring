@@ -18,6 +18,8 @@ public class UserController {
     public String commonParam(String name,int age){
         System.out.println("普通参数传递 name ==> " + name);
         System.out.println("普通参数传递 age ==> " + age);
+
+
         return "{'moudle':'param'}";
     }
 }
