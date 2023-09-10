@@ -19,6 +19,7 @@ public class UserController {
         System.out.println("普通参数传递 name ==> " + name);
         System.out.println("普通参数传递 age ==> " + age);
         System.out.println("hello git4");
+        System.out.println("hello git5");
 
         return "{'moudle':'param'}";
 
